@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 74,
+    "height" : 92
+  }, {
+    "width" : 148,
+    "height" : 183
+  }, {
+    "width" : 295,
+    "height" : 366
+  }, {
+    "width" : 590,
+    "height" : 731
+  }, {
+    "width" : 1179,
+    "height" : 1462
+  }, {
+    "width" : 2358,
+    "height" : 2923
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2358,
+  "@id" : "https://guillenjs.github.io/iiif-images/images/sample",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2923
+}
