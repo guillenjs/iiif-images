@@ -1,0 +1,66 @@
+{
+  "id" : "https://guillenjs.github.io/iiif-images/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in guillenjs/iiif-images project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2358,
+    "id" : "https://guillenjs.github.io/iiif-images/images/sample/canvas/",
+    "label" : {
+      "none" : [ "sample" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://guillenjs.github.io/iiif-images/images/sample/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://guillenjs.github.io/iiif-images/images/sample/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 74,
+              "height" : 92
+            }, {
+              "width" : 148,
+              "height" : 183
+            }, {
+              "width" : 295,
+              "height" : 366
+            }, {
+              "width" : 590,
+              "height" : 731
+            }, {
+              "width" : 1179,
+              "height" : 1462
+            }, {
+              "width" : 2358,
+              "height" : 2923
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2358,
+            "@id" : "https://guillenjs.github.io/iiif-images/images/sample",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2923
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2358,
+          "id" : "https://guillenjs.github.io/iiif-images/images/sample/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2923
+        },
+        "target" : "https://guillenjs.github.io/iiif-images/images/sample/canvas/"
+      } ]
+    } ],
+    "height" : 2923
+  } ]
+}
