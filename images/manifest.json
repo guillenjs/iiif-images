@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 5000,
+    "id" : "https://guillenjs.github.io/iiif-images/images/sample_iiif/canvas/",
+    "label" : {
+      "none" : [ "sample_iiif" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://guillenjs.github.io/iiif-images/images/sample_iiif/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://guillenjs.github.io/iiif-images/images/sample_iiif/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 157,
+              "height" : 125
+            }, {
+              "width" : 313,
+              "height" : 250
+            }, {
+              "width" : 625,
+              "height" : 500
+            }, {
+              "width" : 1250,
+              "height" : 1000
+            }, {
+              "width" : 2500,
+              "height" : 2000
+            }, {
+              "width" : 5000,
+              "height" : 4000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 5000,
+            "@id" : "https://guillenjs.github.io/iiif-images/images/sample_iiif",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5000,
+          "id" : "https://guillenjs.github.io/iiif-images/images/sample_iiif/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4000
+        },
+        "target" : "https://guillenjs.github.io/iiif-images/images/sample_iiif/canvas/"
+      } ]
+    } ],
+    "height" : 4000
+  }, {
     "width" : 2358,
     "id" : "https://guillenjs.github.io/iiif-images/images/sample/canvas/",
     "label" : {
